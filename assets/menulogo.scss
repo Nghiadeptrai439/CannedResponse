@@ -41,7 +41,7 @@
     font-weight: 400;
     font-size: 12px;
     line-height: 16px;
-    
+        
         &:hover{
             background: #F6F6F8;
             border-radius: 8px;
@@ -55,27 +55,39 @@
             }
         
     }
-    .item--logo1{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        height: 64px;
-        border-radius: 8px;  
-        display: block;   
-       
-       
-        padding-top: 10px;     
-            
+    .item--logo.active{
         background: #F6F6F8;
         border-radius: 8px;
         font-weight: 700;
         font-size: 12px;
         line-height: 16px;
         color: #3E6DDA;
+        svg{
+            path{fill: #3E6DDA};
+        }
+        }
+    
+    // .item--logo1{
+    //     display: flex;
+    //     align-items: center;
+    //     justify-content: center;
+    //     text-align: center;
+    //     height: 64px;
+    //     border-radius: 8px;  
+    //     display: block;   
+       
+       
+    //     padding-top: 10px;     
+            
+    //     background: #F6F6F8;
+    //     border-radius: 8px;
+    //     font-weight: 700;
+    //     font-size: 12px;
+    //     line-height: 16px;
+    //     color: #3E6DDA;
                 
             
-        }
+    //     }
     
     &__pro{
         cursor: pointer;
