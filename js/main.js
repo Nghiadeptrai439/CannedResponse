@@ -56,8 +56,8 @@ function addFunction() {
 
 
 
-$('item--logo').on('click', function(){
-    $('item-logo').removClass('active');
-    $(this).addClass('active');
-});
+// $('item--logo').on('click', function(){
+//     $('item-logo').removClass('active');
+//     $(this).addClass('active');
+// });
 
